@@ -19,3 +19,15 @@ _build/
 setup.log
 setup.data
 *.docdir
+
+npm-debug.log
+.merlin
+yarn-error.log
+node_modules
+node_modules/
+_build
+_release
+_esy/
+.DS_Store
+*.install
+esy.lock
