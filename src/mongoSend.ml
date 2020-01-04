@@ -9,14 +9,11 @@ let send_no_reply d request_str =
 
 (* read complete reply portion, include complete message header *)
 let read_reply in_ch =
-  let chr0 = Char.chr 0 in
-  let len_str = String.make 4 chr0 in
-  really_input in_ch len_str 0 4;
+  let len_str = really_input_string in_ch 4 in
   let (len32, _) = decode_int32 len_str 0 in
   let len = Int32.to_int len32 in
   (*print_endline (Int32.to_string len32);*)
-  let str = String.make (len-4) chr0 in
-  really_input in_ch str 0 (len-4);
+  let str = really_input_string in_ch (len-4) in
   let buf = Buffer.create len in
   Buffer.add_string buf len_str;
   Buffer.add_string buf str;
