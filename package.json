@@ -46,6 +46,6 @@
     "@opam/merlin": "*"
   },
   "resolutions": {
-    "bson": "link:/home/eduardo/workspace/ocaml/bson/package.json"
+    "bson": "github:EduardoRFS/bson:package.json#556dd475d12097706c0e80a5d21d5d91052a13b8"
   }
 }
