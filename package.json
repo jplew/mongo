@@ -9,7 +9,7 @@
   },
   "buildDirs": {
     "src": {
-      "require": [ "bson" ],
+      "require": [ "bson.lib" ],
       "name": "mongo.lib",
       "namespace": "Mongo",
       "wrapped": false
