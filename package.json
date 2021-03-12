@@ -35,8 +35,8 @@
     "@esy-ocaml/reason": "*",
     "bson": "*",
     "@opam/dune": ">=1.6.0",
-    "@opam/lwt": "4.4.0",
-    "@opam/lwt_ppx": "1.2.4",
+    "@opam/lwt": "*",
+    "@opam/lwt_ppx": "*",
     "ocaml": "^4.4.0"
   },
   "devDependencies": {
@@ -46,6 +46,6 @@
     "@opam/merlin": "*"
   },
   "resolutions": {
-    "bson": "github:EduardoRFS/bson:package.json#556dd475d12097706c0e80a5d21d5d91052a13b8"
+    "bson": "EduardoRFS/bson:package.json#556dd475d12097706c0e80a5d21d5d91052a13b8"
   }
 }
