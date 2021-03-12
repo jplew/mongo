@@ -46,6 +46,6 @@
     "@opam/merlin": "*"
   },
   "resolutions": {
-    "bson": "EduardoRFS/bson:package.json#556dd475d12097706c0e80a5d21d5d91052a13b8"
+    "bson": "EduardoRFS/bson#556dd475d12097706c0e80a5d21d5d91052a13b8"
   }
 }
